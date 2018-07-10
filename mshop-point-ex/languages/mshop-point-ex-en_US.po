@@ -1,0 +1,1182 @@
+# Translation of MShop Point in English
+# This file is distributed under the same license as the MShop Point package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-25 13:19+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.12\n"
+"Project-Id-Version: MShop Point\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Alan <alan@codemstory.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+
+#: includes/admin/settings/class-msps-settings-manage-point.php:102
+msgid "사용자 역할 선택"
+msgstr "Select User Role"
+
+#: includes/admin/settings/class-msps-settings-manage-point.php:118
+msgid "포인트 일괄처리"
+msgstr "Point Bulk Action"
+
+#: includes/admin/settings/class-msps-settings-point.php:461
+msgid "결제완료시 변경될 주문상태"
+msgstr "Order status changes after payment is completed"
+
+#: includes/admin/settings/class-msps-settings-point.php:468
+msgid "KCP 정기결제건에 한해서, 결제후 주문접수가 완료된 경우 해당 주문의 상태를 지정하는 필수옵션입니다."
+msgstr "KCP just in case regular payment, if orders are completed after the payment option is required to specify the status of the order."
+
+#: includes/admin/settings/class-msps-settings-point.php:546
+msgid "포인트 사용단위"
+msgstr "Point use unit"
+
+#: includes/admin/settings/class-msps-settings-point.php:549
+msgid "포인트 사용량을 제한합니다."
+msgstr "Limit point usage."
+
+#: includes/admin/settings/class-msps-settings-point.php:571
+msgid "포인트 할인시 포인트 적립"
+msgstr "Points earned Discount"
+
+#: includes/admin/settings/class-msps-settings-point.php:577
+msgid "포인트 할인을 받은 경우에도 포인트를 적립합니다."
+msgstr "If you received a points discount even earn points."
+
+#: includes/admin/settings/class-msps-settings-point.php:583
+msgid "포인트 결제시 포인트 적립"
+msgstr "Earn points when you pay points"
+
+#: includes/admin/settings/class-msps-settings-point.php:589
+msgid "포인트 결제건에 대해서도 포인트를 적립합니다."
+msgstr "Earn points for point payments."
+
+#: includes/admin/settings/class-msps-settings-point.php:609
+msgid "포인트 할인 우선순위"
+msgstr "Point discount priority"
+
+#: includes/admin/settings/class-msps-settings-point.php:613
+msgid "세금별 우선순위"
+msgstr "Priority by tax"
+
+#: includes/admin/settings/class-msps-settings-point.php:618
+msgid "세율이 낮은 상품부터 적용"
+msgstr "Applied from products with low tax rates"
+
+#: includes/admin/settings/class-msps-settings-point.php:619
+msgid "세율이 높은 상품부터 적용"
+msgstr "Applied from products with high tax rates"
+
+#: includes/admin/settings/class-msps-settings-point.php:670
+msgid "숏코드(Shortcode) 설정"
+msgstr "Shortcode Setting"
+
+#: includes/admin/settings/class-msps-settings-point.php:674
+msgid "포인트 정보"
+msgstr "Point Information"
+
+#: includes/admin/settings/class-msps-settings-point.php:678
+msgid "보유포인트"
+msgstr "Hold point"
+
+#: includes/admin/settings/class-msps-settings-point.php:679
+#: includes/class-msps-shortcodes.php:28
+msgid "{name} 고객님은 {point} 포인트가 있습니다."
+msgstr "{name}, you have {point} points."
+
+#: includes/admin/settings/class-msps-settings-point.php:681
+msgid "숏코드 : [msps_point_info]<br>기본문구는 \"{name} 고객님은 {point} 포인트가 있습니다.\" 입니다.<br>{name} : 이름, {point} : 적립포인트"
+msgstr "Shortcode : [msps_point_info]<br>Defaults Text is  \"{name}, you have {point} points.\"<br>{name} : customer name, {point} : earn point"
+
+#: includes/class-msps-ajax.php:493 includes/class-msps-ajax.php:499
+#: includes/class-msps-ajax.php:506
+msgid "<p class=\"meta\"><abbr>%s ( #%d, %s )에 의해 일괄 작업됨</abbr></p>"
+msgstr "<p class=\"meta\"><abbr>Point processed by %s ( #%d, %s ) </abbr></p>"
+
+#: includes/class-msps-ajax.php:504
+msgid "관리자에의해 %s 포인트에서 %s 포인트로 변경되었습니다."
+msgstr "Point processed by Administrator.(%s point to %s point)"
+
+#: includes/class-msps-checkout.php:189 includes/class-msps-checkout.php:197
+#: includes/class-msps-manager.php:176
+msgid "포인트 할인 (비과세)"
+msgstr "Points discount (non-taxable)"
+
+#: includes/class-msps-checkout.php:190 includes/class-msps-checkout.php:199
+#: includes/class-msps-manager.php:176
+msgid "포인트 할인 (과세)"
+msgstr "Point discount (taxation)"
+
+#: includes/class-msps-endpoint.php:66
+msgid "My Points"
+msgstr "My Points"
+
+#: includes/class-msps-myaccount.php:88
+msgid "Logout"
+msgstr "Logout"
+
+#: includes/class-msps-order.php:328
+msgid "[포인트 알림] 포인트 결제건으로 포인트가 적립되지 않습니다."
+msgstr "[Point Notification] Points can not be credited to points."
+
+#: includes/wallet/class-msps-wallet-item-free-point.php:9
+msgid "무상 포인트"
+msgstr "Free point"
+
+#: templates/checkout/form-use-point.php:43
+msgid "<p style='font-size: 0.9em; color: gray;'>%s 포인트 단위로 사용할 수 있습니다.</p>"
+msgstr "<p style='font-size: 0.9em; color: gray;'>Can be used in %s units of points.</p>"
+
+#: templates/myaccount/mshop-point-25.php:15
+#: templates/myaccount/mshop-point-avada.php:15
+#: templates/myaccount/mshop-point.php:21
+#: templates/shortcodes/mshop-point.php:15
+msgid "회원 등급"
+msgstr "User Level"
+
+#: templates/myaccount/mshop-point.php:89
+msgid "이전"
+msgstr "Prev"
+
+#: templates/myaccount/mshop-point.php:92
+msgid "다음"
+msgstr "Next"
+
+#: includes/rules/class-msps-rule-common.php:10
+msgid "모든"
+msgstr "All"
+
+#: templates/checkout/cannot_purchase_use_point.php:2
+msgid "포인트 구매불가 상품이 포함되어 있어서 포인트로 결제하실 수 없습니다.<br>"
+msgstr "No point buying a product can not pay to be included in point.<br>"
+
+#: templates/checkout/form-use-point.php:37
+#: templates/checkout/shortage-point.php:14
+msgid "보유 포인트 : %s"
+msgstr "Holds points : %s"
+
+#: templates/checkout/form-use-point.php:38
+msgid "결제 가용 포인트 : %s"
+msgstr "Available Payment Point : %s"
+
+#: templates/checkout/form-use-point.php:40
+msgid "<p style='font-size: 0.9em; color: gray;'>(1 포인트 = %s)</p>"
+msgstr "<p style='font-size: 0.9em; color: gray;'>(1 Point = %s)</p>"
+
+#: templates/checkout/minimum-purchase-amount.php:14
+msgid "%s 이상 구매 시 포인트 사용이 가능합니다."
+msgstr "You can use more than %s points at the time of purchase."
+
+#: templates/checkout/no-purchaseable-product.php:14
+msgid "포인트로 구매가능한 상품이 없습니다."
+msgstr "There is no point in commercially available products."
+
+#: templates/checkout/shortage-point.php:19
+msgid "포인트가 %s 이상 시 결제 사용이 가능합니다."
+msgstr "The points can be used for payments over %s."
+
+#: templates/checkout/shortage-point.php:21
+msgid "보유 포인트가 없습니다."
+msgstr "There is no point holding."
+
+#. Plugin Name of the plugin/theme
+msgid "엠샵 프리미엄 포인트 시스템"
+msgstr "MShop Premium Point System"
+
+#. Description of the plugin/theme
+msgid "쇼핑몰의 포인트 적립 및 사용 기능을 지원합니다."
+msgstr "Supports the ability to earn and use points in shopping malls."
+
+#. Author of the plugin/theme
+msgid "CodeMShop"
+msgstr "CodeMShop"
+
+#. Author URI of the plugin/theme
+msgid "www.codemshop.com"
+msgstr "www.codemshop.com"
+
+#: includes/admin/settings/class-msps-settings-point-role.php:79
+msgid "엠샵 프리미엄 포인트 시스템을 사용합니다."
+msgstr "Use MShop Premium Point System."
+
+#: includes/admin/settings/class-msps-settings-point-role.php:85
+msgid "사용자 역할 설정"
+msgstr "User Role Setting"
+
+#: includes/admin/settings/class-msps-settings-point-role.php:114
+msgid "닉네임(Nickname)"
+msgstr "Nickname"
+
+#: includes/admin/settings/class-msps-settings-point-role.php:120
+msgid "슬러그(slug)"
+msgstr "Slug"
+
+#: includes/admin/settings/class-msps-settings-point.php:269
+msgid "알림 문구 설정"
+msgstr "Announce Message Setting"
+
+#: includes/admin/settings/class-msps-settings-point.php:273
+msgid "포인트 적립 안내문구 표시 기능"
+msgstr "Point Earn Information Message "
+
+#: includes/admin/settings/class-msps-settings-point.php:281
+msgid "포인트 적립 안내 문구 출력 기능을 사용합니다."
+msgstr "Use Point Earn Information Message."
+
+#: includes/admin/settings/class-msps-settings-point.php:287
+msgid "상품 구매"
+msgstr "Buy Product "
+
+#: includes/admin/settings/class-msps-settings-point.php:292
+msgid "포인트 적립정보 표시"
+msgstr "Earn Point Information Display"
+
+#: includes/admin/settings/class-msps-settings-point.php:296
+msgid "상품 구매시 적립될 포인트에 대한 안내 문구를 출력합니다."
+msgstr "Earn Point Information Displayed."
+
+#: includes/admin/settings/class-msps-settings-point.php:301
+msgid "상품상세 페이지"
+msgstr "Product Detail Page"
+
+#: includes/admin/settings/class-msps-settings-point.php:302
+#: includes/class-msps-cart.php:48
+msgid "상품 구매시 {point} 포인트가 적립됩니다."
+msgstr "When Buy Product, earn {point} point."
+
+#: includes/admin/settings/class-msps-settings-point.php:304
+msgid "기본문구는 \"상품 구매시 {point} 포인트가 적립됩니다.\" 입니다.<br>{point} : 적립포인트"
+msgstr "Default Message is \"When Buy Product, earn {point} point.\"<br>{point} : Earn Point"
+
+#: includes/admin/settings/class-msps-settings-point.php:309
+msgid "장바구니 페이지"
+msgstr "Cart Page"
+
+#: includes/admin/settings/class-msps-settings-point.php:310
+#: includes/admin/settings/class-msps-settings-point.php:318
+msgid "주문이 완료되면 {point} 포인트가 적립됩니다."
+msgstr "When order completed, earn {point} point."
+
+#: includes/admin/settings/class-msps-settings-point.php:312
+#: includes/admin/settings/class-msps-settings-point.php:320
+msgid "기본문구는 \"주문이 완료되면 {point} 포인트가 적립됩니다.\" 입니다.<br>{point} : 적립포인트"
+msgstr "Default Message is \"When Order Completed, earn {point} point.\"<br>{point} : Earn Point"
+
+#: includes/admin/settings/class-msps-settings-point.php:317
+msgid "체크아웃 페이지"
+msgstr "Checkout Page"
+
+#: includes/admin/settings/class-msps-settings-point.php:325
+msgid "포인트 적립혜택 정보 표시"
+msgstr "Show points earned benefit information"
+
+#: includes/admin/settings/class-msps-settings-point.php:331
+msgid "포인트 적립혜택 안내문구를 출력합니다."
+msgstr "Show points earned benefit information"
+
+#: includes/admin/settings/class-msps-settings-point.php:341
+msgid "제목"
+msgstr "Title"
+
+#: includes/admin/settings/class-msps-settings-point.php:343
+#: includes/class-msps-cart.php:49 includes/class-msps-manager.php:739
+msgid "[ 포인트 적립안내 ]"
+msgstr "[ Point Earn Infomation ]"
+
+#: includes/admin/settings/class-msps-settings-point.php:352
+msgid "추가 안내문구"
+msgstr "Additional Infomation"
+
+#: includes/admin/settings/class-msps-settings-point.php:353
+msgid "포인트 적립에 대한 추가 안내문구를 입력합니다."
+msgstr "Input About Point Earn Additional Infomation Message."
+
+#: includes/admin/settings/class-msps-settings-point.php:362
+msgid "금액 조건 적립 문구"
+msgstr "Earn money Condition phrases"
+
+#: includes/admin/settings/class-msps-settings-point.php:363
+#: includes/class-msps-cart.php:52 includes/class-msps-manager.php:710
+msgid "{desc} 상품 {amount} 이상 구매시 {point} 포인트가 적립됩니다."
+msgstr "{Desc} goods orders over {amount}, {point} points you earn."
+
+#: includes/admin/settings/class-msps-settings-point.php:365
+msgid "기본문구는 \"{desc} 상품 {amount} 이상 구매시 {point} 포인트가 적립됩니다.\" 입니다.<br>{desc} 상품정보, {amount} : 구매 금액, {point} : 적립포인트"
+msgstr "Basic phrases \"{desc} {amount} goods orders over {point} points you earn.\" A <br> {desc} product information, {amount}: the purchase price, {point}: Earn Points"
+
+#: includes/admin/settings/class-msps-settings-point.php:373
+msgid "수량 조건 적립 문구"
+msgstr "Quantity Earn conditions phrases"
+
+#: includes/admin/settings/class-msps-settings-point.php:374
+#: includes/class-msps-cart.php:53 includes/class-msps-manager.php:712
+msgid "{desc} 상품 {qty}개 이상 구매시 {point} 포인트가 적립됩니다."
+msgstr "{Desc} {qty} commodity purchase more than one {point} points you earn."
+
+#: includes/admin/settings/class-msps-settings-point.php:376
+msgid "기본문구는 \"{desc} 상품 {qty}개 이상 구매시 {point} 포인트가 적립됩니다.\" 입니다.<br>{desc} 상품정보, {qty} : 구매 수량, {point} : 적립포인트"
+msgstr "Basic phrases \"{desc} {qty} commodity purchase more than one {point} points you earn.\" A <br> {desc} product information, {qty}: quantity purchasing, {point}: Earn Points"
+
+#: includes/admin/settings/class-msps-settings-point.php:384
+msgid "금액 & 수량 조건 적립 문구"
+msgstr "Quantity Price & Conditions earn phrases"
+
+#: includes/admin/settings/class-msps-settings-point.php:385
+#: includes/class-msps-cart.php:51 includes/class-msps-manager.php:708
+msgid "{desc} 상품 {amount} 이상 또는 {qty}개 이상 구매시 {point} 포인트가 적립됩니다."
+msgstr "{Desc} {amount} goods {qty} or more than two orders over {point} points you earn."
+
+#: includes/admin/settings/class-msps-settings-point.php:387
+msgid "기본문구는 \"{desc} 상품 {amount} 이상 또는 {qty}개 이상 구매시 {point} 포인트가 적립됩니다.\" 입니다.<br>{desc} 상품정보, {amount} : 구매 금액, {qty} : 구매 수량, {point} : 적립포인트"
+msgstr "Basic phrases \"{desc} {amount} goods {qty} or more than two orders over {point} points you earn.\" A <br> {desc} product information, {amount}: the purchase price, {qty}: quantity purchasing, {point}: Earn Points"
+
+#: includes/admin/settings/class-msps-settings-point.php:393
+#: includes/admin/settings/class-msps-settings-point.php:1036
+msgid "댓글"
+msgstr "Comment"
+
+#: includes/admin/settings/class-msps-settings-point.php:402
+msgid "댓글 작성 페이지에서 적립될 포인트에 대한 안내 문구 출력 기능을 사용합니다."
+msgstr "Use the information message output function for the points earned in the comment pages."
+
+#: includes/admin/settings/class-msps-settings-point.php:407
+msgid "메시지"
+msgstr "Message"
+
+#: includes/admin/settings/class-msps-settings-point.php:408
+#: includes/class-msps-post-manager.php:282 includes/class-msps-wpml.php:103
+msgid "댓글을 작성하시면 {point} 포인트가 적립됩니다."
+msgstr "Please leave a comment {point} points you earn."
+
+#: includes/admin/settings/class-msps-settings-point.php:425
+msgid "포인트 설정"
+msgstr "Point Setting"
+
+#: includes/admin/settings/class-msps-settings-point.php:429
+msgid "포인트 교환 비율"
+msgstr "Point Exchange Rate Ratio"
+
+#: includes/admin/settings/class-msps-settings-point.php:439
+msgid "포인트 교환 비율을 지정합니다."
+msgstr "Input Point Exchange Rate Ratio"
+
+#: includes/admin/settings/class-msps-settings-point.php:443
+msgid "포인트 이용 방법"
+msgstr "Point Use Method"
+
+#: includes/admin/settings/class-msps-settings-point.php:448
+#: includes/class-msps-checkout.php:186 includes/class-msps-checkout.php:195
+#: includes/class-msps-checkout.php:204 includes/class-msps-manager.php:176
+#: includes/class-msps-order.php:140 includes/msps-functions.php:75
+#: includes/msps-functions.php:84 templates/checkout/used-point.php:11
+msgid "포인트 할인"
+msgstr "Point Discount"
+
+#: includes/admin/settings/class-msps-settings-point.php:449
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:14
+msgid "포인트 결제"
+msgstr "Point Checkout"
+
+#: includes/admin/settings/class-msps-settings-point.php:453
+#: includes/admin/settings/class-msps-settings-point.php:480
+msgid "포인트 이용 방법 안내"
+msgstr "Point Use Method Guide"
+
+#: includes/admin/settings/class-msps-settings-point.php:454
+msgid "<div class=\"ui bulleted list\"> <div class=\"item\">포인트 할인 : 주문시 보유한 포인트를 사용해서 주문금액에 대한 할인을 받습니다.</div><div class=\"item\">포인트 결제 : 보유한 포인트를 이용해서 결제를 합니다.</div></div>"
+msgstr "<div class=\"ui bulleted list\"> <div class=\"item\">Point Discount : Using the points have orders receive a discount on your order.</div><div class=\"item\">Point Checkout : You have to use the points to pay.</div></div>"
+
+#: includes/admin/settings/class-msps-settings-point.php:475
+msgid "포인트 부족시 안내메시지"
+msgstr "Point shortage prompts"
+
+#: includes/admin/settings/class-msps-settings-point.php:476
+msgid "보유하신 포인트($point)가 부족해서 포인트로 결제하실 수 없습니다."
+msgstr "You hold points ($point) it will not be short, to the point payment."
+
+#: includes/admin/settings/class-msps-settings-point.php:481
+msgid "포인트가 부족해서 포인트 결제가 불가능할경우 보여줄 메시지를 지정하세요. ( 보유포인트 : $point, 주문금액 : $order_total )"
+msgstr "If you have enough points to pay points is not possible, specify a message to show. (Holding point: $point, the order amount: $order_total)"
+
+#: includes/admin/settings/class-msps-settings-point.php:489
+msgid "포인트 사용 제한"
+msgstr "Point Use Limit"
+
+#: includes/admin/settings/class-msps-settings-point.php:493
+msgid "배송비 결제 지원"
+msgstr "Payment Shipping Support"
+
+#: includes/admin/settings/class-msps-settings-point.php:499
+msgid "포인트로 배송비도 함께 결제할 수 있습니다."
+msgstr "You can pay, shipping method fee by user point."
+
+#: includes/admin/settings/class-msps-settings-point.php:505
+msgid "최소 보유 포인트"
+msgstr "Minimum holding point"
+
+#: includes/admin/settings/class-msps-settings-point.php:515
+msgid "사용자의 보유 포인트가 지정된 포인트 이상이어야 결제에 사용할 수 있습니다. (0을 입력하면 항상 사용 가능합니다.)"
+msgstr "The user holds the points can be used to make payments over a specified point. (If you type 0 it is always available.)"
+
+#: includes/admin/settings/class-msps-settings-point.php:521
+msgid "최대 사용 가능 비율"
+msgstr "The maximum available rate"
+
+#: includes/admin/settings/class-msps-settings-point.php:529
+msgid "총 구매금액의 몇% 까지 결제에 사용할 수 있는지 지정합니다."
+msgstr "Specifies whether to several percent of the total purchase amount available for payment."
+
+#: includes/admin/settings/class-msps-settings-point.php:533
+msgid "최소 주문 구매 금액"
+msgstr "Minimum order purchases"
+
+#: includes/admin/settings/class-msps-settings-point.php:542
+msgid "포인트 사용에 필요한 최소 구매 금액을 설정합니다."
+msgstr "Set the minimum purchase amount required to point of use."
+
+#: includes/admin/settings/class-msps-settings-point.php:555
+msgid "포인트 적립 제한"
+msgstr "Earn points limited"
+
+#: includes/admin/settings/class-msps-settings-point.php:559
+msgid "주문 취소 및 환불 정책"
+msgstr "Order cancellation and refund policy"
+
+#: includes/admin/settings/class-msps-settings-point.php:565
+msgid "고객이 거래 취소 또는 환불시 결제에 사용된 포인트를 재적립 합니다."
+msgstr "The re-earn the point that the customer uses to pay for cancellation or refund transactions."
+
+#: includes/admin/settings/class-msps-settings-point.php:595
+msgid "쿠폰 사용시 포인트 적립"
+msgstr "Use Coupon orders earn point."
+
+#: includes/admin/settings/class-msps-settings-point.php:601
+msgid "쿠폰을 사용한 주문건에 대해서도 포인트를 적립합니다."
+msgstr "Use Coupon orders can earn point."
+
+#: includes/admin/settings/class-msps-settings-point.php:626
+msgid "신규회원 포인트 적립 기능"
+msgstr "New Member Points earned Features"
+
+#: includes/admin/settings/class-msps-settings-point.php:634
+msgid "회원 가입시 사용자에게 포인트를 적립합니다."
+msgstr "Members will earn points acceding to the user."
+
+#: includes/admin/settings/class-msps-settings-point.php:638
+msgid "적립 포인트"
+msgstr "Earn Point"
+
+#: includes/admin/settings/class-msps-settings-point.php:649
+msgid "회원가입 시 안내문구"
+msgstr "When registering information message"
+
+#: includes/admin/settings/class-msps-settings-point.php:650
+msgid "신규 회원가입 시 1,000포인트가 적립됩니다"
+msgstr "When new registering, earn 1,000 point."
+
+#: includes/admin/settings/class-msps-settings-point.php:656
+msgid "적립 안내문구"
+msgstr "Earn Information Message"
+
+#: includes/admin/settings/class-msps-settings-point.php:657
+msgid "회원 가입 화면에 보여줄 포인트 적립에 대한 안내문구를 기재할 수 있습니다."
+msgstr "Members can earn points based on the information message on the sign up screen show."
+
+#: includes/admin/settings/class-msps-settings-point.php:692
+msgid "주문 설정"
+msgstr "Order Setting"
+
+#: includes/admin/settings/class-msps-settings-point.php:697
+msgid "주문 완료시 포인트 적립 기능"
+msgstr "Points earned during order completion function"
+
+#: includes/admin/settings/class-msps-settings-point.php:705
+msgid "고객의 주문이 완료되면 일정 금액을 포인트로 적립해주는 기능을 사용합니다."
+msgstr "Once your order is complete, use the features that earn a certain amount of points."
+
+#: includes/admin/settings/class-msps-settings-point.php:734
+msgid "구매 포인트 적립 기능"
+msgstr "Purchase Earn Point Feature "
+
+#: includes/admin/settings/class-msps-settings-point.php:739
+msgid "규칙종류"
+msgstr "Rule Type"
+
+#: includes/admin/settings/class-msps-settings-point.php:740
+msgid "규칙 종류를 지정하세요."
+msgstr "Please specify the type of rule."
+
+#: includes/admin/settings/class-msps-settings-point.php:745
+msgid "상품"
+msgstr "Product"
+
+#: includes/admin/settings/class-msps-settings-point.php:746
+#: includes/admin/settings/class-msps-settings-point.php:1111
+#: includes/rules/class-msps-rule-category.php:10
+msgid "카테고리"
+msgstr "Category"
+
+#: includes/admin/settings/class-msps-settings-point.php:747
+#: includes/rules/class-msps-rule-shipping-class.php:9
+msgid "배송클래스"
+msgstr "Shipping Class"
+
+#: includes/admin/settings/class-msps-settings-point.php:748
+msgid "공통"
+msgstr "Common"
+
+#: includes/admin/settings/class-msps-settings-point.php:753
+msgid "적용대상"
+msgstr "Applies"
+
+#: includes/admin/settings/class-msps-settings-point.php:754
+msgid "규칙을 적용할 대상을 선택하세요."
+msgstr "Select the object to which the rule applies."
+
+#: includes/admin/settings/class-msps-settings-point.php:780
+msgid "중복적립"
+msgstr "Duplicate earn"
+
+#: includes/admin/settings/class-msps-settings-point.php:782
+msgid "다른 정책의 적용여부와 관계없이 항상 적용됩니다."
+msgstr "Always it applies, regardless of the applicability of other policies."
+
+#: includes/admin/settings/class-msps-settings-point.php:789
+msgid "가격 정책"
+msgstr "Price Policy"
+
+#: includes/admin/settings/class-msps-settings-point.php:809
+msgid "금액"
+msgstr "Price"
+
+#: includes/admin/settings/class-msps-settings-point.php:819
+msgid "수량"
+msgstr "Qty"
+
+#: includes/admin/settings/class-msps-settings-point.php:841
+msgid "비율 적립"
+msgstr "Earning ratio"
+
+#: includes/admin/settings/class-msps-settings-point.php:852
+msgid "고정 적립"
+msgstr "Fixed earn"
+
+#: includes/admin/settings/class-msps-settings-point.php:874
+msgid "게시글 및 댓글 설정"
+msgstr "Post & Comment Setting"
+
+#: includes/admin/settings/class-msps-settings-point.php:879
+msgid "게시글 및 댓글 작성시 포인트 적립 기능"
+msgstr "Posts and Comments earn points when you create feature"
+
+#: includes/admin/settings/class-msps-settings-point.php:887
+msgid "사용자가 게시글 또는 댓글 작성 시 포인트를 적립해주는 기능을 사용합니다."
+msgstr "Use the features that users earn points when post or comment."
+
+#: includes/admin/settings/class-msps-settings-point.php:893
+msgid "포인트 적립 제한 기능"
+msgstr "Earn points limit"
+
+#: includes/admin/settings/class-msps-settings-point.php:902
+msgid "일정 기간동안 적립 가능한 포인트와 일일 최대 적립 가능 횟수를 제한하는 기능을 사용합니다."
+msgstr "For a period of time as possible to earn points and use the function to limit the maximum daily number of possible earn."
+
+#: includes/admin/settings/class-msps-settings-point.php:906
+msgid "기간별 최대 적립 포인트"
+msgstr "Period up to earn points"
+
+#: includes/admin/settings/class-msps-settings-point.php:921
+msgid "하루"
+msgstr "Daily"
+
+#: includes/admin/settings/class-msps-settings-point.php:932
+msgid "일주일"
+msgstr "Weekly"
+
+#: includes/admin/settings/class-msps-settings-point.php:943
+msgid "한달"
+msgstr "Monthly"
+
+#: includes/admin/settings/class-msps-settings-point.php:956
+msgid "일일 최대 적립 횟수"
+msgstr "Daily maximum number of Earn"
+
+#: includes/admin/settings/class-msps-settings-point.php:971
+msgid "게시글수"
+msgstr "Post Count"
+
+#: includes/admin/settings/class-msps-settings-point.php:976
+#: includes/admin/settings/class-msps-settings-point.php:987
+msgid "개"
+msgstr "Item"
+
+#: includes/admin/settings/class-msps-settings-point.php:982
+msgid "게시글당 댓글수"
+msgstr "Number of comments per post"
+
+#: includes/admin/settings/class-msps-settings-point.php:997
+msgid "포인트 적립 자격 제한 기능"
+msgstr "Points earned eligibility limit"
+
+#: includes/admin/settings/class-msps-settings-point.php:1006
+msgid "포인트를 적립받기 위해 필요한 자격 조건을 제한하는 기능을 사용합니다."
+msgstr "Use the ability to restrict the qualifications necessary to receive earn points."
+
+#: includes/admin/settings/class-msps-settings-point.php:1010
+msgid "적립자격"
+msgstr "Earn qualifications"
+
+#: includes/admin/settings/class-msps-settings-point.php:1025
+msgid "게시글"
+msgstr "Post"
+
+#: includes/admin/settings/class-msps-settings-point.php:1047
+msgid "회원가입"
+msgstr "Sign up"
+
+#: includes/admin/settings/class-msps-settings-point.php:1052
+msgid "일 이후"
+msgstr "Days After"
+
+#: includes/admin/settings/class-msps-settings-point.php:1091
+#: includes/admin/settings/class-msps-settings-point.php:1097
+#: includes/admin/settings/class-msps-settings-point.php:1102
+msgid "Taxonomy"
+msgstr "Taxonomy"
+
+#: includes/admin/settings/class-msps-settings-point.php:1103
+msgid "Taxonomy를 선택하세요."
+msgstr "Choose the Taxonomy."
+
+#: includes/admin/settings/class-msps-settings-point.php:1112
+msgid "규칙을 적용할 카테고리를 선택하세요."
+msgstr "Please select the category to which the rule applies."
+
+#: includes/admin/settings/class-msps-settings-point.php:1121
+msgid "카테고리를 선택하지 않으면, 선택된 Taxonomy의 모든 카테고리에 적용됩니다."
+msgstr "If you do not select a category, the category will be applied to all of the selected Taxonomy."
+
+#: includes/admin/settings/class-msps-settings-point.php:1143
+msgid "사용자 등급별 포인트"
+msgstr "User rating points"
+
+#: includes/admin/settings/class-msps-settings-point.php:1161
+msgid "게시글 포인트"
+msgstr "Post Point"
+
+#: includes/admin/settings/class-msps-settings-point.php:1172
+msgid "댓글 포인트"
+msgstr "Comment Point"
+
+#: includes/class-msps-ajax.php:292 includes/class-msps-ajax.php:491
+msgid "관리자에의해 %s포인트가 적립되었습니다."
+msgstr "The %s points have been earned by the Manager."
+
+#: includes/class-msps-ajax.php:294 includes/class-msps-ajax.php:300
+msgid "<p class=\"meta\"><abbr>%s ( #%d, %s )에 의해 작업됨</abbr></p>"
+msgstr "<p class=\"meta\"><abbr>Process by %s ( #%d, %s )</abbr></p>"
+
+#: includes/class-msps-ajax.php:298 includes/class-msps-ajax.php:497
+msgid "관리자에의해 %s포인트가 차감되었습니다."
+msgstr "The %s points has been deducted by the administrator."
+
+#: includes/class-msps-cart.php:54 includes/class-msps-manager.php:731
+msgid "(추가적립) "
+msgstr "(Additional credited)"
+
+#: includes/class-msps-cart.php:68 includes/class-msps-checkout.php:8
+msgid "쿠폰을 사용하여 포인트가 적립되지 않습니다"
+msgstr "Use the coupon will not earn points"
+
+#: includes/class-msps-checkout.php:24
+msgid "( 포인트 구매불가 상품 )"
+msgstr "(No point buying products)"
+
+#: includes/class-msps-checkout.php:98 includes/class-msps-checkout.php:101
+msgid "주문(<a href=\"%1$s\">#%2$s</a>) 결제시 포인트 사용으로 %3$s포인트가 차감되었습니다.<br>보유포인트가 %4$s포인트에서 %5$s포인트로 변경되었습니다."
+msgstr "Order (<a href=\"%1$s\"> #%2$s</a>) to use payment points %3$s points has been deducted.<br>%4$s reserves point to point has been changed from %5$s points."
+
+#: includes/class-msps-checkout.php:104 includes/class-msps-checkout.php:144
+#: includes/class-msps-order.php:190 includes/class-msps-order.php:213
+#: includes/class-msps-order.php:234 includes/class-msps-order.php:279
+#: includes/class-msps-order.php:292
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:138
+msgid "[포인트 알림] "
+msgstr "[Point Alert]"
+
+#: includes/class-msps-checkout.php:138 includes/class-msps-checkout.php:141
+msgid "주문(<a href=\"%1$s\">#%2$s</a>) 결제시 포인트 사용금액 변경으로 사용된 %3$s포인트가 재적립 되었습니다."
+msgstr "Buy a (<a href=\"%1$s\"> #%2$s</a>) change the amount of payments point of use %3$s points it has been credited with re-use."
+
+#: includes/class-msps-comment.php:45 includes/class-msps-comment.php:49
+msgid "<a href=\"%1$s\">%2$s</a>에 작성한 <a href=\"%3$s\">코멘트</a>가 승인되어 %4$s포인트가 적립되었습니다.<br>보유포인트가 %5$s포인트에서 %6$s포인트로 변경되었습니다."
+msgstr "The <a href=\"%3$s\"> comments </a>%4$s has been created in the points approved <a href=\"%1$s\">%2$s </a> been credited <br> holds the point has been changed from %5$s points to %6$s points."
+
+#: includes/class-msps-comment.php:46 includes/class-msps-comment.php:50
+#: includes/class-msps-comment.php:81 includes/class-msps-comment.php:85
+msgid "<p class=\"meta\"><abbr>%s</abbr></p>"
+msgstr "<p class=\"meta\"><abbr>%s</abbr></p>"
+
+#: includes/class-msps-comment.php:80 includes/class-msps-comment.php:84
+msgid "<a href=\"%1$s\">%2$s</a>에 작성한 <a href=\"%3$s\">코멘트</a>가 승인 취소되어 %4$s포인트가 적립되었습니다.<br>보유포인트가 %5$s포인트에서 %6$s포인트로 변경되었습니다."
+msgstr "To write at <a href=\"%1$s\">%2$s</a> <a href=\"%3$s\">Comment</a> is  %4$s포인트가 적립되었습니다.<br>보유포인트가 %5$s포인트에서 %6$s포인트로 변경되었습니다."
+
+#: includes/class-msps-myaccount.php:69
+msgid "신규회원가입 포인트(%s)가 적립되었습니다."
+msgstr "New Register Member earn point(%s)."
+
+#: includes/class-msps-myaccount.php:85 includes/class-msps-myaccount.php:91
+#: templates/myaccount/mshop-point-25.php:7
+#: templates/myaccount/mshop-point-avada.php:8
+msgid "내 포인트"
+msgstr "My Point"
+
+#: templates/myaccount/mshop-point-25.php:23
+#: templates/myaccount/mshop-point-avada.php:23
+#: templates/myaccount/mshop-point.php:29
+#: templates/shortcodes/mshop-point.php:23
+msgid "보유 포인트"
+msgstr "Holds points"
+
+#: templates/myaccount/mshop-point-25.php:31
+#: templates/myaccount/mshop-point-avada.php:31
+#: templates/myaccount/mshop-point.php:49
+#: templates/shortcodes/mshop-point.php:31
+msgid "최종 적립일"
+msgstr "Earn final days"
+
+#: includes/class-msps-order.php:89
+msgid "적립금 할인"
+msgstr "Point Discount"
+
+#: includes/class-msps-order.php:89
+msgid "This is the total discount applied after tax."
+msgstr "This is the total discount applied after tax."
+
+#: includes/class-msps-order.php:118
+msgid "포인트 할인:"
+msgstr "Point Discount:"
+
+#: includes/class-msps-order.php:184 includes/class-msps-order.php:187
+msgid "주문(<a href=\"%1$s\">#%2$s</a>)이 취소되어 결제에 사용된 %3$s포인트가 재적립되었습니다.<br>보유포인트가 %4$s포인트에서 %5$s포인트로 변경되었습니다."
+msgstr "Order (<a href=\"%1$s\">#%2$s</a>) is clear is that the redeposited %3$s used in payment points.<br>held point %4$s in point it has been changed to %5$s points."
+
+#: includes/class-msps-order.php:273 includes/class-msps-order.php:276
+msgid "주문(<a href=\"%1$s\">#%2$s</a>)이 완료되어 %3$s포인트가 적립되었습니다.<br>보유포인트가 %4$s포인트에서 %5$s포인트로 변경되었습니다."
+msgstr "Order (<a href=\"%1$s\">#%2$s</a>) is complete, %3$s points have been earned.<br>Holds point is change %4$s point to %5$s point."
+
+#: includes/class-msps-order.php:286 includes/class-msps-order.php:289
+msgid "주문(<a href=\"%1$s\">#%2$s</a>)이 취소되어 %3$s포인트가 차감되었습니다.<br>보유포인트가 %4$s포인트에서 %5$s포인트로 변경되었습니다."
+msgstr "Order (<a href=\"%1$s\">#%2$s</a>) is cancelled, %3$s points have been deducted.<br>Holds point is change %4$s point to %5$s point."
+
+#: includes/class-msps-order.php:207 includes/class-msps-order.php:210
+msgid "주문(<a href=\"%s\">#%s</a>) 결제 취소로 %s포인트가 재적립 되었습니다.<br>보유포인트가 %s포인트에서 %s포인트로 변경되었습니다."
+msgstr "Order (<a href=\"%s\">#%s</a>) was redeposited %s points clear payment.<br>Holding point has been changed %s to %s points in the points."
+
+#: includes/class-msps-order.php:320
+msgid "[포인트 알림] 포인트 할인을 받은 주문건으로 포인트가 적립되지 않습니다."
+msgstr "[Point Alert] Points will be awarded to the orders received points discount."
+
+#: includes/class-msps-order.php:336
+msgid "[포인트 알림] 주문처리가 완료되면 고객에게 %s 포인트가 적립됩니다."
+msgstr "[Point Alert] Once the order process has been completed it will earn %s points to the customer."
+
+#: includes/class-msps-post-types.php:38
+msgid "Point Rules"
+msgstr "Point Rules"
+
+#: includes/class-msps-post-types.php:39
+msgctxt "mshop_point_rule post type singular name"
+msgid "Point Rule"
+msgstr "Point Rule"
+
+#: includes/class-msps-post-types.php:40
+msgid "Add Point Rule"
+msgstr "Add Point Rule"
+
+#: includes/class-msps-post-types.php:41
+msgid "Add New Point Rule"
+msgstr "Add New Point Rule"
+
+#: includes/class-msps-post-types.php:42
+msgid "Edit"
+msgstr "Edit"
+
+#: includes/class-msps-post-types.php:43
+msgid "Edit Point Rule"
+msgstr "Edit Point Rule"
+
+#: includes/class-msps-post-types.php:44
+msgid "New Point Rule"
+msgstr "New Point Rule"
+
+#: includes/class-msps-post-types.php:45 includes/class-msps-post-types.php:46
+msgid "View Point Rule"
+msgstr "View Point Rule"
+
+#: includes/class-msps-post-types.php:47
+msgid "Search Point Rules"
+msgstr "Search Point Rules"
+
+#: includes/class-msps-post-types.php:48
+msgid "No Point Rules found"
+msgstr "No Point Rules found"
+
+#: includes/class-msps-post-types.php:49
+msgid "No Point Rules found in trash"
+msgstr "No Point Rules found in trash"
+
+#: includes/class-msps-post-types.php:50
+msgid "Parent Point Rules"
+msgstr "Parent Point Rules"
+
+#: includes/class-msps-post-types.php:51
+msgctxt "Admin menu name"
+msgid "Point Rules"
+msgstr "Point Rules"
+
+#: includes/class-msps-post-types.php:53
+msgid "This is where store point rules are stored."
+msgstr "This is where store point rules are stored."
+
+#: includes/class-msps-post.php:45
+msgid "게시글 <a href=\"%s\">%s</a>가 승인되어 포인트(%s)가 적립되었습니다."
+msgstr "The point(%s) has been credited posts <a href=\"%s\">%s</a> are approved."
+
+#: includes/class-msps-post.php:72
+msgid "게시글 <a href=\"%s\">%s</a>의 승인이 취소되어 포인트(%s)가 차감되었습니다."
+msgstr "The approved posts <a href=\"%s\">%s</a> is clear that point(%s) was deducted."
+
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:15
+msgid "보유하신 포인트를 이용해서 결제합니다."
+msgstr "Make payments using the points you hold."
+
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:34
+msgid "Enable/Disable"
+msgstr "Enable/Disable"
+
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:36
+msgid "Enable Point Purchase"
+msgstr "Enable Point Purchase"
+
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:40
+msgid "Title"
+msgstr "Title"
+
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:42
+msgid "This controls the title which the user sees during checkout."
+msgstr "This controls the title which the user sees during checkout."
+
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:43
+msgid "Point Purchase"
+msgstr "Point Purchase"
+
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:47
+msgid "Description"
+msgstr "Description"
+
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:49
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "Payment method description that the customer will see on your checkout."
+
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:50
+msgid "사용자에게 적립된 포인트를 이용한 결제를 지원합니다"
+msgstr "It supports payment using points earned to users"
+
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:94
+msgid "보유하신 포인트( $point )가 부족해서 포인트로 결제하실 수 없습니다.<br>"
+msgstr "I hold the point( $point ) to the point you can not pay due to lack.<br>"
+
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:105
+msgid "<p>보유포인트 : %s</p>"
+msgstr "<p>Holds points : %s</p>"
+
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:130
+msgid "포인트(%s)를 사용해서 결제했습니다."
+msgstr "You have to pay to use the point(%s)."
+
+#: includes/class-msps-order.php:228 includes/class-msps-order.php:231
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:132
+#: includes/gateways/mshop-point/class-mshop-gateway-point.php:135
+msgid "주문(<a href=\"%s\">#%s</a>) 결제시 포인트 사용으로 %s포인트가 차감되었습니다.<br>보유포인트가 %s포인트에서 %s포인트로 변경되었습니다."
+msgstr "Order (<a href=\"%s\">#%s</a>) was deducted a point to point to %s using payment.<br> Holding point has been changed %s to %s points in the points."
+
+#: includes/admin/admin-users.php:60
+msgid "%s 포인트"
+msgstr "%s Point"
+
+#: includes/admin/admin-users.php:62
+msgid "0 포인트"
+msgstr "0 Point"
+
+#: includes/admin/admin-users.php:75
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:215
+#: includes/admin/settings/class-msps-settings-manage-point.php:160
+#: includes/admin/settings/class-msps-settings-point-logs.php:130
+#: includes/admin/settings/class-msps-settings-point.php:436
+#: includes/admin/settings/class-msps-settings-point.php:508
+#: includes/admin/settings/class-msps-settings-point.php:644
+#: includes/admin/settings/class-msps-settings-point.php:857
+#: includes/admin/settings/class-msps-settings-point.php:926
+#: includes/admin/settings/class-msps-settings-point.php:937
+#: includes/admin/settings/class-msps-settings-point.php:948
+#: includes/admin/settings/class-msps-settings-point.php:1166
+#: includes/admin/settings/class-msps-settings-point.php:1177
+#: templates/checkout/form-use-point.php:36
+#: templates/checkout/minimum-purchase-amount.php:11
+#: templates/checkout/no-purchaseable-product.php:11
+#: templates/checkout/shortage-point.php:12
+#: templates/myaccount/mshop-point-25.php:45
+#: templates/myaccount/mshop-point-avada.php:45
+#: templates/myaccount/mshop-point.php:64
+#: templates/shortcodes/mshop-point.php:46
+msgid "포인트"
+msgstr "Point"
+
+#: includes/admin/class-mshop-admin-point.php:17
+msgid "엠샵 포인트"
+msgstr "MShop Point"
+
+#: includes/admin/class-mshop-admin-point.php:18
+#: includes/admin/settings/class-msps-settings-manage-point.php:76
+#: includes/admin/settings/class-msps-settings-point-role.php:66
+#: includes/admin/settings/class-msps-settings-point.php:420
+msgid "기본설정"
+msgstr "General Setting"
+
+#: includes/admin/class-mshop-admin-point.php:20
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:82
+msgid "정책설정"
+msgstr "Policy Setting"
+
+#: includes/admin/class-mshop-admin-point.php:21
+msgid "로그보기"
+msgstr "Log View"
+
+#: includes/admin/class-mshop-admin-point.php:22
+msgid "사용자 포인트 관리"
+msgstr "User Point Manage"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:50
+#: includes/admin/settings/class-msps-settings-point.php:222
+msgid "Guest"
+msgstr "Guest"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:71
+msgid "Point Setting"
+msgstr "Point Setting"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:86
+msgid "포인트 구매 정책"
+msgstr "Point Buy Policy"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:90
+msgid "포인트 구매 불가"
+msgstr "Point Buy Disabled"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:94
+msgid "이 상품은 적립된 포인트로 구매할 수 없습니다."
+msgstr "This product can not be purchased with points earned."
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:98
+msgid "포인트 적립 불가"
+msgstr "Points can not be earned"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:102
+msgid "이 상품은 포인트가 적립되지 않습니다."
+msgstr "This product does not earn points."
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:108
+msgid "상품별 포인트 정책"
+msgstr "Product Point Policy"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:112
+msgid "사용"
+msgstr "Enable"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:116
+msgid "상품에 대한 포인트 정책 설정 기능을 사용합니다."
+msgstr "Use Product Point Policy"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:122
+#: includes/admin/settings/class-msps-settings-point.php:712
+#: includes/admin/settings/class-msps-settings-point.php:1063
+msgid "포인트 적립 정책"
+msgstr "Point Reward Policy"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:137
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:183
+#: includes/admin/settings/class-msps-settings-point.php:727
+#: includes/admin/settings/class-msps-settings-point.php:1080
+#: includes/admin/settings/class-msps-settings-point.php:1120
+#: includes/admin/settings/class-msps-settings-point.php:1148
+msgid "주의사항"
+msgstr "Caution"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:138
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:184
+#: includes/admin/settings/class-msps-settings-point.php:728
+#: includes/admin/settings/class-msps-settings-point.php:1081
+#: includes/admin/settings/class-msps-settings-point.php:1149
+msgid "고정 포인트 적립과 구매비율 적립이 중복 가능함에 주의하세요."
+msgstr "Please note that a fixed percentage of purchases and earn points to earn redundancy possible."
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:147
+msgid "금액조건"
+msgstr "Amount conditions"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:149
+#: includes/admin/settings/class-msps-settings-point.php:811
+msgid "이상"
+msgstr "More than"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:156
+msgid "수량조건"
+msgstr "Quantities Conditions"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:158
+#: includes/admin/settings/class-msps-settings-point.php:822
+#: includes/admin/settings/class-msps-settings-point.php:1030
+#: includes/admin/settings/class-msps-settings-point.php:1041
+msgid "개 이상"
+msgstr "More than"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:164
+#: includes/admin/settings/class-msps-settings-point.php:766
+#: includes/admin/settings/class-msps-settings-point.php:1128
+msgid "기간설정"
+msgstr "Set period"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:166
+#: includes/admin/settings/class-msps-settings-point.php:768
+#: includes/admin/settings/class-msps-settings-point.php:1130
+msgid "규칙을 적용할 기간을 지정합니다."
+msgstr "It specifies the period to which the rule applies."
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:172
+#: includes/admin/settings/class-msps-settings-point.php:774
+#: includes/admin/settings/class-msps-settings-point.php:1136
+msgid "유효기간"
+msgstr "Validity"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:177
+msgid "포인트 정책"
+msgstr "Point Policy"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:190
+#: includes/admin/settings/class-msps-settings-manage-point.php:101
+#: includes/admin/settings/class-msps-settings-point-role.php:126
+#: includes/admin/settings/class-msps-settings-point.php:835
+#: includes/admin/settings/class-msps-settings-point.php:915
+#: includes/admin/settings/class-msps-settings-point.php:965
+#: includes/admin/settings/class-msps-settings-point.php:1019
+#: includes/admin/settings/class-msps-settings-point.php:1155
+msgid "역할"
+msgstr "Role"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:196
+msgid "구매비율 적립"
+msgstr "Earn purchase ratio"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:204
+msgid "금액비율 포인트 적립"
+msgstr "The amount ratios and earn points"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:205
+msgid "주문금액의 일정 비율을 포인트로 적립합니다."
+msgstr "Earn points as a percentage of the amount of the order."
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:211
+msgid "고정 포인트 적립"
+msgstr "Earn fixed points"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:219
+msgid "주문당 포인트 적립"
+msgstr "Earn Point each order"
+
+#: includes/admin/meta-boxes/class-msps-admin-meta-box-product-point.php:220
+msgid "주문 건당 일정 포인트를 적립합니다."
+msgstr "Per order to earn a certain point."
+
+#: includes/admin/settings/class-msps-settings-manage-point.php:90
+#: includes/admin/settings/class-msps-settings-point-logs.php:76
+#: includes/admin/settings/class-msps-settings-point-logs.php:123
+msgid "사용자"
+msgstr "User"
+
+#: includes/admin/settings/class-msps-settings-manage-point.php:91
+#: includes/admin/settings/class-msps-settings-point-logs.php:77
+msgid "사용자 선택"
+msgstr "Choose user"
+
+#: includes/admin/settings/class-msps-settings-manage-point.php:140
+#: includes/admin/settings/class-msps-settings-point-logs.php:104
+msgid "검색 결과가 없습니다."
+msgstr "Not found search result."
+
+#: includes/admin/settings/class-msps-settings-manage-point.php:146
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin/settings/class-msps-settings-manage-point.php:153
+msgid "사용자명"
+msgstr "Username"
+
+#: includes/admin/settings/class-msps-settings-manage-point.php:168
+msgid "최종적립일"
+msgstr "Last earn date"
+
+#: includes/admin/settings/class-msps-settings-point-logs.php:62
+#: templates/myaccount/mshop-point-25.php:39
+#: templates/myaccount/mshop-point-avada.php:39
+#: templates/myaccount/mshop-point.php:58
+#: templates/shortcodes/mshop-point.php:40
+msgid "포인트 로그"
+msgstr "Point Logs"
+
+#: includes/admin/settings/class-msps-settings-point-logs.php:88
+msgid "조회기간"
+msgstr "Inquiry period"
+
+#: includes/admin/settings/class-msps-settings-point-logs.php:109
+#: templates/myaccount/mshop-point-25.php:43
+#: templates/myaccount/mshop-point-avada.php:43
+#: templates/myaccount/mshop-point.php:62
+#: templates/shortcodes/mshop-point.php:44
+msgid "순번"
+msgstr "No"
+
+#: includes/admin/settings/class-msps-settings-point-logs.php:116
+#: templates/myaccount/mshop-point-25.php:44
+#: templates/myaccount/mshop-point-avada.php:44
+#: templates/myaccount/mshop-point.php:63
+#: templates/shortcodes/mshop-point.php:45
+msgid "날짜"
+msgstr "Date"
+
+#: includes/admin/settings/class-msps-settings-point-logs.php:137
+#: templates/myaccount/mshop-point-25.php:46
+#: templates/myaccount/mshop-point-avada.php:46
+#: templates/myaccount/mshop-point.php:65
+#: templates/shortcodes/mshop-point.php:47
+msgid "비고"
+msgstr "Remarks"
+
+#: includes/admin/settings/class-msps-settings-point-role.php:71
+msgid "프리미엄 포인트 시스템"
+msgstr "Premium Point System"
+
+#: includes/admin/settings/class-msps-settings-point-role.php:75
+#: includes/admin/settings/class-msps-settings-point-role.php:107
+#: includes/admin/settings/class-msps-settings-point.php:277
+#: includes/admin/settings/class-msps-settings-point.php:398
+#: includes/admin/settings/class-msps-settings-point.php:630
+#: includes/admin/settings/class-msps-settings-point.php:701
+#: includes/admin/settings/class-msps-settings-point.php:883
+#: includes/admin/settings/class-msps-settings-point.php:898
+#: includes/admin/settings/class-msps-settings-point.php:1002
+msgid "활성화"
+msgstr "Enabled"

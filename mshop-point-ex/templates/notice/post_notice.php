@@ -1,0 +1,1 @@
+<div class="mshop-point-info post-point" <?php echo $hidden ? 'style="display: none; opacity: 0"' : ''; ?>><?php echo wp_kses_post( $message ); ?></div>
